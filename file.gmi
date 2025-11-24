@@ -1,10 +1,20 @@
-# Mon titre principal
-## Une section
-=> /about.gmi Page À propos
-* Premier point
-* Deuxième point
-Ceci est un paragraphe normal.
+# Main title
+
+## A section
+
+### A smaller section
+
+=> /about.gmi About Page
+
+=> /docs/bridge.gmi
+
+* First point
+* Second point
+
+This is a normal paragraph.
 
 ```bash
 echo 'this is a code block'
 ```
+
+> This is a quote

@@ -3,7 +3,6 @@
 
 // TODO: Detect all the .gmi syntax
 
-
 int main(int argc, char *argv[])
 {
     if (argc != 2) {
