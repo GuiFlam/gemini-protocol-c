@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-// TODO: Detect all the .gmi syntax
+#include <string.h>
 
 int main(int argc, char *argv[])
 {
@@ -15,10 +14,44 @@ int main(int argc, char *argv[])
     // 512 bytes buffer to store each line
     char line[512];
 
+    int in_code_block = 0;
+
     if (file != NULL)
     {
         while (fgets(line, sizeof(line), file)) {
-            printf("%s", line);
+            
+            if(in_code_block == 1 && strncmp(line, "```", 3) != 0) {
+                printf("in code block: %s", line);
+            }
+
+            if(strncmp(line, "# ", 2) == 0) {
+                printf("# detected:\t %s", line);
+            }
+            else if(strncmp(line, "## ", 3) == 0) {
+                printf("## detected:\t %s", line);
+            }
+            else if(strncmp(line, "### ", 4) == 0) {
+                printf("### detected:\t %s", line);
+            }
+            else if(strncmp(line, "=>", 2) == 0) {
+                printf("=> detected:\t %s", line);
+            }
+            else if(strncmp(line, "*", 1) == 0) {
+                printf("* detected:\t %s", line);
+            }
+            else if(strncmp(line, ">", 1) == 0) {
+                printf("> detected:\t %s", line);
+            }
+            else if(strncmp(line, "```", 3) == 0) {
+                if(in_code_block == 0) {
+                    in_code_block = 1;
+                    printf("``` start detected:\t %s", line);
+                }
+                else {
+                    in_code_block = 0;
+                    printf("``` end detected:\t %s", line);
+                }
+            }
 	    }
 	    fclose(file);
     }
