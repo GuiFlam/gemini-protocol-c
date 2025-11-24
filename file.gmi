@@ -1,0 +1,6 @@
+# Mon titre principal
+## Une section
+=> /about.gmi Page À propos
+* Premier point
+* Deuxième point
+Ceci est un paragraphe normal.
