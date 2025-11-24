@@ -1,4 +1,4 @@
-# gemini-c
+# gemini-protocol-c
 
 ## Run instructions
 
