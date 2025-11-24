@@ -4,3 +4,7 @@
 * Premier point
 * Deuxième point
 Ceci est un paragraphe normal.
+
+```bash
+echo 'this is a code block'
+```
