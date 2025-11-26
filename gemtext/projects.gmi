@@ -14,8 +14,12 @@ Système de gestion technique développé pour supporter les opérations d'une e
 Développement d'un serveur pour le protocole Gemini en C, incluant le parsing de requêtes, gestion TLS et serving de contenu statique.
 
 ## Cette capsule Gemini
+
 Ce site personnel est hébergé sur le protocole Gemini, un protocole de communication alternatif minimaliste.
 
+Ce site est également disponible sur le web traditionnel grâce à un script que j'ai développé en C qui convertit le format gemtext en HTML.
+
+=> https://github.com/GuiFlam/gemini-protocol-c Mon serveur Gemini et convertisseur gemtext vers HTML
 => /gemini.gmi En savoir plus sur Gemini
 => /tech.gmi Voir mes compétences techniques
 => / Retour à l'accueil
