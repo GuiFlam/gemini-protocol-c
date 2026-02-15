@@ -22,7 +22,6 @@ I recently completed my first internship in project management at the Energy Div
 ## Navigation
 
 => /about.gmi Learn more about my background
-=> /projects.gmi Discover my technical projects
 => /tech.gmi View my technical skills
 => /gemini.gmi What is the Gemini protocol?
 => /contact.gmi Contact me

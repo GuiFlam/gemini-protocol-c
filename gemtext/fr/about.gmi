@@ -19,5 +19,4 @@ Je suis étudiant en génie électrique à l'École de technologie supérieure (
 ## Approche
 Je privilégie la compréhension approfondie des systèmes, l'utilisation d'outils open-source, et le contrôle technique sur l'infrastructure.
 
-=> /fr/projects.gmi Découvrir mes projets
 => /fr/ Retour à l'accueil

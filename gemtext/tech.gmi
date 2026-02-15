@@ -32,5 +32,4 @@
 * Communication protocols
 * IoT and system integration
 
-=> /projects.gmi View my projects
 => / Back to home

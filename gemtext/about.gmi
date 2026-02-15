@@ -19,5 +19,4 @@ I am an electrical engineering student at Ecole de technologie superieure (ETS) 
 ## Approach
 I prioritize deep understanding of systems, the use of open-source tools, and technical control over infrastructure.
 
-=> /projects.gmi Discover my projects
 => / Back to home

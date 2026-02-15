@@ -29,4 +29,12 @@ Vous aurez besoin d'un client Gemini pour accéder à cette adresse. Quelques op
 ## Pourquoi Gemini?
 Le web moderne est devenu lourd, complexe et invasif. Gemini représente un retour à l'essentiel: du contenu accessible, une navigation simple, et le respect de la vie privée de l'utilisateur. C'est un espace où le protocole lui-même empêche le tracking et la sur-complexification.
 
+## Cette capsule
+
+Ce site personnel est hébergé sur le protocole Gemini et est également disponible sur le web traditionnel grâce à un convertisseur gemtext vers HTML que j'ai écrit en C.
+
+Le serveur Gemini lui-même est aussi écrit en C, gérant le parsing de requêtes, TLS et le serving de contenu statique.
+
+=> https://github.com/GuiFlam/gemini-protocol-c Mon serveur Gemini et convertisseur gemtext vers HTML
+
 => /fr/ Retour à l'accueil

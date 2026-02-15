@@ -32,5 +32,4 @@
 * Protocoles de communication
 * IoT et intégration de systèmes
 
-=> /fr/projects.gmi Voir mes projets
 => /fr/ Retour à l'accueil

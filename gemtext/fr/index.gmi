@@ -22,7 +22,6 @@ J'ai récemment complété mon premier stage, en gestion de projets dans la Divi
 ## Navigation
 
 => /fr/about.gmi En savoir plus sur mon parcours
-=> /fr/projects.gmi Découvrir mes projets techniques
 => /fr/tech.gmi Consulter mes compétences techniques
 => /fr/gemini.gmi Qu'est-ce que le protocole Gemini?
 => /fr/contact.gmi Me contacter
