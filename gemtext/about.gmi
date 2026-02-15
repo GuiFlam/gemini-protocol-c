@@ -1,21 +1,23 @@
-# À propos
+=> /fr/about.gmi Version francaise
 
-Je suis étudiant en génie électrique à l'École de technologie supérieure (ÉTS) à Montréal. Mon parcours reflète un intérêt pour les systèmes embarqués, l'automatisation industrielle et l'intégration de technologies.
+# About
 
-## Formation
-* Génie électrique - ÉTS Montréal
-* Stagiaire en gestion de projets - Division Énergie, Laurin Laurin (1991) Inc
+I am an electrical engineering student at Ecole de technologie superieure (ETS) in Montreal. My background reflects an interest in embedded systems, industrial automation and technology integration.
 
-## Centres d'intérêt techniques
-* Systèmes embarqués et microcontrôleurs
-* Programmation bas niveau (C, assembleur)
-* Automatisation et contrôle de processus
-* Infrastructure technique (serveurs, déploiement)
-* Administration système Linux
-* Protocoles de communication et IoT
+## Education
+* Electrical engineering - ETS Montreal
+* Project management intern - Energy Division, Laurin Laurin (1991) Inc
 
-## Approche
-Je privilégie la compréhension approfondie des systèmes, l'utilisation d'outils open-source, et le contrôle technique sur l'infrastructure.
+## Technical interests
+* Embedded systems and microcontrollers
+* Low-level programming (C, assembly)
+* Automation and process control
+* Technical infrastructure (servers, deployment)
+* Linux system administration
+* Communication protocols and IoT
 
-=> /projects.gmi Découvrir mes projets
-=> / Retour à l'accueil
+## Approach
+I prioritize deep understanding of systems, the use of open-source tools, and technical control over infrastructure.
+
+=> /projects.gmi Discover my projects
+=> / Back to home

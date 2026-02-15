@@ -1,0 +1,36 @@
+=> /tech.gmi English version
+
+# Compétences techniques
+
+## Programmation
+
+### Langages systèmes
+* C - Programmation système et embarquée
+* Bash - Scripts d'automatisation et administration
+
+### Langages de support
+* Python - Automatisation et scripting
+* JavaScript - Interfaces et intégration
+
+## Systèmes et infrastructure
+
+### Administration système
+* Linux (Fedora, Debian)
+* Configuration et déploiement de serveurs
+* Conteneurisation (Docker)
+* Automatisation de processus
+
+### Outils techniques
+* Git (contrôle de version)
+* Nginx (serveur web)
+* Automatisation de workflows (n8n)
+
+## Domaines d'application
+* Systèmes embarqués
+* Infrastructure technique
+* Automatisation industrielle
+* Protocoles de communication
+* IoT et intégration de systèmes
+
+=> /fr/projects.gmi Voir mes projets
+=> /fr/ Retour à l'accueil

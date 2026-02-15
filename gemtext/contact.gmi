@@ -1,13 +1,15 @@
+=> /fr/contact.gmi Version francaise
+
 # Contact
 
-## Me rejoindre
+## Get in touch
 
-Intéressé par une collaboration technique, un projet open-source ou une discussion sur les technologies décentralisées?
+Interested in a technical collaboration, an open-source project or a discussion about decentralized technologies?
 
 ### Email
 g@guifl.com
 
-### Opportunités professionnelles
-Actuellement ouvert aux opportunités de stage pour l'été 2026.
+### Professional opportunities
+Currently open to internship opportunities for summer 2026.
 
-=> / Retour à l'accueil
+=> / Back to home

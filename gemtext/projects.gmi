@@ -1,25 +1,27 @@
-# Projets
+=> /fr/projects.gmi Version francaise
 
-## Projets techniques
+# Projects
 
-### Infrastructure pour Irocrete
-Développement de l'infrastructure technique complète pour une entreprise de mobilier urbain : serveurs, automatisation des processus, systèmes de gestion et intégration de technologies.
+## Technical projects
+
+### Infrastructure for Irocrete
+Development of complete technical infrastructure for a street furniture company: servers, process automation, management systems and technology integration.
 => https://irocrete.com
 
-### Système de gestion Irocu
-Système de gestion technique développé pour supporter les opérations d'une entreprise : gestion de projets, automatisation et infrastructure.
+### Irocu management system
+Technical management system developed to support a company's operations: project management, automation and infrastructure.
 => https://irocu.com
 
-### Serveur Gemini
-Développement d'un serveur pour le protocole Gemini en C, incluant le parsing de requêtes, gestion TLS et serving de contenu statique.
+### Gemini server
+Development of a server for the Gemini protocol in C, including request parsing, TLS management and static content serving.
 
-## Cette capsule Gemini
+## This Gemini capsule
 
-Ce site personnel est hébergé sur le protocole Gemini, un protocole de communication alternatif minimaliste.
+This personal site is hosted on the Gemini protocol, a minimalist alternative communication protocol.
 
-Ce site est également disponible sur le web traditionnel grâce à un script que j'ai développé en C qui convertit le format gemtext en HTML.
+This site is also available on the traditional web thanks to a script I developed in C that converts the gemtext format to HTML.
 
-=> https://github.com/GuiFlam/gemini-protocol-c Mon serveur Gemini et convertisseur gemtext vers HTML
-=> /gemini.gmi En savoir plus sur Gemini
-=> /tech.gmi Voir mes compétences techniques
-=> / Retour à l'accueil
+=> https://github.com/GuiFlam/gemini-protocol-c My Gemini server and gemtext to HTML converter
+=> /gemini.gmi Learn more about Gemini
+=> /tech.gmi View my technical skills
+=> / Back to home

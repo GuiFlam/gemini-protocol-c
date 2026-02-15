@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <dirent.h>
+#include <sys/stat.h>
 
 const char* CSS = 
 "<style>\n"
@@ -168,12 +169,12 @@ void write_html_header(FILE *output, const char *title) {
     fprintf(output, "<body>\n");
 }
 
-void parse_gemtext_to_html(char *name) {
+void parse_gemtext_to_html(const char *gemtext_dir, const char *html_dir, char *name) {
     char html_path[512];
     char gemtext_path[512];
-    
-    snprintf(html_path, sizeof(html_path), "./html/%s.html", name);
-    snprintf(gemtext_path, sizeof(gemtext_path), "./gemtext/%s.gmi", name);
+
+    snprintf(html_path, sizeof(html_path), "%s/%s.html", html_dir, name);
+    snprintf(gemtext_path, sizeof(gemtext_path), "%s/%s.gmi", gemtext_dir, name);
 
     FILE *html_file = fopen(html_path, "w");
 
@@ -286,25 +287,27 @@ void parse_gemtext_to_html(char *name) {
     fclose(html_file);
 }
 
-int main(int argc, char *argv[])
-{
+void process_directory(const char *gemtext_dir, const char *html_dir) {
+    mkdir(html_dir, 0755);
+
     struct dirent *de;
-    DIR *dr = opendir("./gemtext/");
+    DIR *dr = opendir(gemtext_dir);
 
     if(dr == NULL) {
-        return 0;
+        fprintf(stderr, "Cannot open directory: %s\n", gemtext_dir);
+        return;
     }
- 
-    char** strings = (char**)malloc(100*sizeof(char*));
 
+    char** strings = (char**)malloc(100*sizeof(char*));
     if (strings == NULL) {
-        return 1;
+        closedir(dr);
+        return;
     }
 
     int count = 0;
     while((de = readdir(dr)) != NULL) {
-        if(strncmp(de->d_name, ".", 1) != 0) {
-            strings[count] = (char*)malloc(25);
+        if(strncmp(de->d_name, ".", 1) != 0 && strstr(de->d_name, ".gmi") != NULL) {
+            strings[count] = (char*)malloc(256);
             sprintf(strings[count], "%s", de->d_name);
             count++;
         }
@@ -312,13 +315,22 @@ int main(int argc, char *argv[])
     closedir(dr);
 
     for(int i = 0; i < count; i++) {
-        //printf("%s\n", strings[i]);
         char *dot = strchr(strings[i], '.');
         if(dot) *dot = '\0';
-        parse_gemtext_to_html(strings[i]);
+        parse_gemtext_to_html(gemtext_dir, html_dir, strings[i]);
+        free(strings[i]);
     }
 
     free(strings);
+}
+
+int main(int argc, char *argv[])
+{
+    (void)argc;
+    (void)argv;
+
+    process_directory("./gemtext", "./html");
+    process_directory("./gemtext/fr", "./html/fr");
 
     return 0;
 }

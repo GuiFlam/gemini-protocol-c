@@ -1,33 +1,35 @@
+=> /fr/index.gmi Version francaise
+
 # guifl.com
 
-Étudiant en génie électrique à l'ÉTS, intéressé par les systèmes embarqués, l'automatisation industrielle et l'infrastructure technique.
+Electrical engineering student at ETS, interested in embedded systems, industrial automation and technical infrastructure.
 
-## Qui suis-je?
+## About me
 
-Je suis étudiant en génie électrique à l'École de technologie supérieure (ÉTS) à Montréal, avec un intérêt pour les systèmes embarqués, l'automatisation et l'intégration de technologies.
+I am an electrical engineering student at Ecole de technologie superieure (ETS) in Montreal, with an interest in embedded systems, automation and technology integration.
 
-J'ai récemment complété mon premier stage, en gestion de projets dans la Division Énergie chez Laurin Laurin (1991) Inc. J'ai travaillé sur des projets touchant l'infrastructure électrique et la gestion de systèmes techniques.
+I recently completed my first internship in project management at the Energy Division of Laurin Laurin (1991) Inc. I worked on projects involving electrical infrastructure and technical systems management.
 
-## Domaines d'intérêt
+## Areas of interest
 
-* Systèmes embarqués et programmation bas niveau (C)
-* Automatisation industrielle et contrôle de processus
-* Infrastructure technique et déploiement de systèmes
-* Administration système Linux
-* Intégration de technologies et IoT
-* Systemes intégrés à l'IA en local (llama.cpp)
+* Embedded systems and low-level programming (C)
+* Industrial automation and process control
+* Technical infrastructure and system deployment
+* Linux system administration
+* Technology integration and IoT
+* Locally integrated AI systems (llama.cpp)
 
 ## Navigation
 
-=> /about.gmi En savoir plus sur mon parcours
-=> /projects.gmi Découvrir mes projets techniques
-=> /tech.gmi Consulter mes compétences techniques
-=> /gemini.gmi Qu'est-ce que le protocole Gemini?
-=> /contact.gmi Me contacter
+=> /about.gmi Learn more about my background
+=> /projects.gmi Discover my technical projects
+=> /tech.gmi View my technical skills
+=> /gemini.gmi What is the Gemini protocol?
+=> /contact.gmi Contact me
 
 ---
 
-Cette capsule est hébergée sur le protocole Gemini, une alternative minimaliste et respectueuse de la vie privée au web traditionnel. Vous pouvez y accéder nativement via:
+This capsule is hosted on the Gemini protocol, a minimalist and privacy-respecting alternative to the traditional web. You can access it natively via:
 ```bash
 gemini://gemini.guifl.com:443
 ```

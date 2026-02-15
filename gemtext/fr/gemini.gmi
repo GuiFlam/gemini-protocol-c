@@ -1,0 +1,32 @@
+=> /gemini.gmi English version
+
+# Le protocole Gemini
+
+Gemini est un protocole Internet alternatif conçu pour offrir une expérience de navigation simple, légère et respectueuse de la vie privée. Situé entre Gopher et le Web moderne, Gemini élimine la complexité excessive du web actuel tout en restant pratique et accessible.
+
+## Caractéristiques principales
+* Protocole minimaliste sans JavaScript ni tracking
+* Format de document simple (gemtext)
+* Chargement rapide et faible consommation de bande passante
+* Accent sur le contenu plutôt que sur la présentation
+* Connexions chiffrées par défaut (TLS obligatoire)
+
+## Accéder à ce site via Gemini
+
+Pour visiter cette capsule via le protocole Gemini natif:
+```bash
+gemini://gemini.guifl.com:443
+```
+Vous aurez besoin d'un client Gemini pour accéder à cette adresse. Quelques options populaires:
+
+* Lagrange (interface graphique multi-plateforme)
+* Amfora (client terminal)
+* Bombadillo (client terminal multi-protocoles)
+
+## Ressources
+=> https://geminiprotocol.net Version web de la documentation
+
+## Pourquoi Gemini?
+Le web moderne est devenu lourd, complexe et invasif. Gemini représente un retour à l'essentiel: du contenu accessible, une navigation simple, et le respect de la vie privée de l'utilisateur. C'est un espace où le protocole lui-même empêche le tracking et la sur-complexification.
+
+=> /fr/ Retour à l'accueil

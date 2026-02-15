@@ -6,20 +6,37 @@ const PORT = 8080;
 
 const server = http.createServer((req, res) => {
   let urlPath = req.url;
-  let filePath = './html/';
-  
+
   // Redirect root to /index.gmi
   if (urlPath === '/' || urlPath === '') {
     res.writeHead(301, { 'Location': '/index.gmi' });
     res.end();
     return;
   }
-  
-  // Remove .gmi extension to find the actual .html file
-  if (urlPath.endsWith('.gmi')) {
-    filePath += urlPath.replace('.gmi', '.html');
+
+  // Redirect /fr/ to /fr/index.gmi
+  if (urlPath === '/fr' || urlPath === '/fr/') {
+    res.writeHead(301, { 'Location': '/fr/index.gmi' });
+    res.end();
+    return;
+  }
+
+  // Determine file path based on URL
+  let filePath;
+  if (urlPath.startsWith('/fr/')) {
+    let page = urlPath.slice(4); // remove /fr/
+    if (page.endsWith('.gmi')) {
+      page = page.replace('.gmi', '.html');
+    } else {
+      page = page + '.html';
+    }
+    filePath = './html/fr/' + page;
   } else {
-    filePath += urlPath + '.html';
+    if (urlPath.endsWith('.gmi')) {
+      filePath = './html/' + urlPath.replace('.gmi', '.html');
+    } else {
+      filePath = './html/' + urlPath + '.html';
+    }
   }
 
   fs.readFile(filePath, 'utf8', (err, content) => {

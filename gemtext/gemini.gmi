@@ -1,30 +1,32 @@
-# Le protocole Gemini
+=> /fr/gemini.gmi Version francaise
 
-Gemini est un protocole Internet alternatif conçu pour offrir une expérience de navigation simple, légère et respectueuse de la vie privée. Situé entre Gopher et le Web moderne, Gemini élimine la complexité excessive du web actuel tout en restant pratique et accessible.
+# The Gemini protocol
 
-## Caractéristiques principales
-* Protocole minimaliste sans JavaScript ni tracking
-* Format de document simple (gemtext)
-* Chargement rapide et faible consommation de bande passante
-* Accent sur le contenu plutôt que sur la présentation
-* Connexions chiffrées par défaut (TLS obligatoire)
+Gemini is an alternative Internet protocol designed to offer a simple, lightweight and privacy-respecting browsing experience. Situated between Gopher and the modern Web, Gemini eliminates the excessive complexity of today's web while remaining practical and accessible.
 
-## Accéder à ce site via Gemini
+## Key features
+* Minimalist protocol with no JavaScript or tracking
+* Simple document format (gemtext)
+* Fast loading and low bandwidth consumption
+* Focus on content rather than presentation
+* Encrypted connections by default (mandatory TLS)
 
-Pour visiter cette capsule via le protocole Gemini natif:
+## Access this site via Gemini
+
+To visit this capsule via the native Gemini protocol:
 ```bash
 gemini://gemini.guifl.com:443
 ```
-Vous aurez besoin d'un client Gemini pour accéder à cette adresse. Quelques options populaires:
+You will need a Gemini client to access this address. Some popular options:
 
-* Lagrange (interface graphique multi-plateforme)
-* Amfora (client terminal)
-* Bombadillo (client terminal multi-protocoles)
+* Lagrange (cross-platform graphical interface)
+* Amfora (terminal client)
+* Bombadillo (multi-protocol terminal client)
 
-## Ressources
-=> https://geminiprotocol.net Version web de la documentation
+## Resources
+=> https://geminiprotocol.net Web version of the documentation
 
-## Pourquoi Gemini?
-Le web moderne est devenu lourd, complexe et invasif. Gemini représente un retour à l'essentiel: du contenu accessible, une navigation simple, et le respect de la vie privée de l'utilisateur. C'est un espace où le protocole lui-même empêche le tracking et la sur-complexification.
+## Why Gemini?
+The modern web has become heavy, complex and invasive. Gemini represents a return to the essentials: accessible content, simple navigation, and respect for user privacy. It is a space where the protocol itself prevents tracking and over-complexity.
 
-=> / Retour à l'accueil
+=> / Back to home
