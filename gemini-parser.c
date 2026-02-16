@@ -331,6 +331,7 @@ int main(int argc, char *argv[])
 
     process_directory("./gemtext", "./html");
     process_directory("./gemtext/fr", "./html/fr");
+    process_directory("./gemtext/blog", "./html/blog");
 
     return 0;
 }
