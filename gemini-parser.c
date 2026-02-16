@@ -158,8 +158,8 @@ const char* CSS =
 "}\n"
 ".logo { \n"
 "    display: block; \n"
-"    max-width: 80px; \n"
-"    margin-bottom: 1.5rem; \n"
+"    max-width: 150px; \n"
+"    margin: 0 auto 2rem auto; \n"
 "}\n"
 "</style>\n";
 
