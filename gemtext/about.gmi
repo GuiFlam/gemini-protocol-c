@@ -6,7 +6,7 @@ I am an electrical engineering student at Ecole de technologie superieure (ETS) 
 
 ## Education
 * Electrical engineering - ETS Montreal
-* Project management intern - Energy Division, Laurin Laurin (1991) Inc
+* Project management intern - Energy division, company
 
 ## Technical interests
 * Embedded systems and microcontrollers
