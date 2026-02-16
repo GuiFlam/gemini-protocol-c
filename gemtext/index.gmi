@@ -8,7 +8,9 @@ Electrical engineering student at ETS, interested in embedded systems, industria
 
 I am an electrical engineering student at Ecole de technologie superieure (ETS) in Montreal, with an interest in embedded systems, automation and technology integration.
 
-I recently completed my first internship in project management at the energy division of a company. I worked on projects involving electrical infrastructure and technical systems management.
+I completed my first internship in project management at the energy division of Laurin Laurin, working on projects involving electrical infrastructure and technical systems management.
+
+This summer 2026, I will be doing my second internship at EXP, an engineering firm, in building electrical engineering. I will be working on electrical system modeling with Autodesk Revit.
 
 ## Areas of interest
 

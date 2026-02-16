@@ -21,6 +21,23 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Serve static files (images)
+  if (urlPath.match(/\.(png|jpg|jpeg|gif|svg|ico)$/)) {
+    const staticPath = '.' + urlPath;
+    const ext = path.extname(urlPath).slice(1);
+    const mimeTypes = { png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', gif: 'image/gif', svg: 'image/svg+xml', ico: 'image/x-icon' };
+    fs.readFile(staticPath, (err, content) => {
+      if (err) {
+        res.writeHead(404);
+        res.end('Not found');
+      } else {
+        res.writeHead(200, { 'Content-Type': mimeTypes[ext] || 'application/octet-stream' });
+        res.end(content);
+      }
+    });
+    return;
+  }
+
   // Determine file path based on URL
   let filePath;
   if (urlPath.startsWith('/fr/')) {

@@ -8,7 +8,9 @@
 
 Je suis étudiant en génie électrique à l'École de technologie supérieure (ÉTS) à Montréal, avec un intérêt pour les systèmes embarqués, l'automatisation et l'intégration de technologies.
 
-J'ai récemment complété mon premier stage, en gestion de projets dans la division énergie d'une entreprise. J'ai travaillé sur des projets touchant l'infrastructure électrique et la gestion de systèmes techniques.
+J'ai complété mon premier stage en gestion de projets dans la division énergie chez Laurin Laurin, travaillant sur des projets touchant l'infrastructure électrique et la gestion de systèmes techniques.
+
+Cet été 2026, je ferai mon deuxième stage chez EXP, une firme de génie, en ingénierie électrique du bâtiment. Je travaillerai sur la modélisation de systèmes électriques avec Autodesk Revit.
 
 ## Domaines d'intérêt
 

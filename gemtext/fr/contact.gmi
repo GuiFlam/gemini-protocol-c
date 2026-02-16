@@ -10,6 +10,6 @@ Intéressé par une collaboration technique, un projet open-source ou une discus
 g@guifl.com
 
 ### Opportunités professionnelles
-Actuellement ouvert aux opportunités de stage pour l'été 2026.
+En stage chez EXP pour l'été 2026 en ingénierie électrique du bâtiment.
 
-=> /fr/ Retour à l'accueil
+=> /fr/index.gmi Retour à l'accueil

@@ -154,9 +154,15 @@ p {
     color: #171717; 
     word-wrap: break-word;
 }
+.logo { 
+    display: block; 
+    max-width: 80px; 
+    margin-bottom: 1.5rem; 
+}
 </style>
 </head>
 <body>
+<img src="/Logo.png" alt="guifl.com" class="logo">
 <a href="/fr/gemini.gmi">Version francaise</a><br>
 <h1>The Gemini protocol</h1>
 <p>Gemini is an alternative Internet protocol designed to offer a simple, lightweight and privacy-respecting browsing experience. Situated between Gopher and the modern Web, Gemini eliminates the excessive complexity of today's web while remaining practical and accessible.</p>
@@ -186,6 +192,6 @@ p {
 <p>This personal site is hosted on the Gemini protocol and is also available on the traditional web thanks to a gemtext to HTML converter I wrote in C.</p>
 <p>The Gemini server itself is also written in C, handling request parsing, TLS and static content serving.</p>
 <a href="https://github.com/GuiFlam/gemini-protocol-c">My Gemini server and gemtext to HTML converter</a><br>
-<a href="/">Back to home</a><br>
+<a href="/index.gmi">Back to home</a><br>
 </body>
 </html>

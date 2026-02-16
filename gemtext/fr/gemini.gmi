@@ -37,4 +37,4 @@ Le serveur Gemini lui-même est aussi écrit en C, gérant le parsing de requêt
 
 => https://github.com/GuiFlam/gemini-protocol-c Mon serveur Gemini et convertisseur gemtext vers HTML
 
-=> /fr/ Retour à l'accueil
+=> /fr/index.gmi Retour à l'accueil

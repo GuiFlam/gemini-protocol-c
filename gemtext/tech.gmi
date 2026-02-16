@@ -32,4 +32,4 @@
 * Communication protocols
 * IoT and system integration
 
-=> / Back to home
+=> /index.gmi Back to home

@@ -6,7 +6,10 @@ I am an electrical engineering student at Ecole de technologie superieure (ETS) 
 
 ## Education
 * Electrical engineering - ETS Montreal
-* Project management intern - Energy division, company
+
+## Experience
+* Building electrical engineering intern - EXP (summer 2026)
+* Project management intern - Energy division, Laurin Laurin
 
 ## Technical interests
 * Embedded systems and microcontrollers
@@ -19,4 +22,4 @@ I am an electrical engineering student at Ecole de technologie superieure (ETS) 
 ## Approach
 I prioritize deep understanding of systems, the use of open-source tools, and technical control over infrastructure.
 
-=> / Back to home
+=> /index.gmi Back to home

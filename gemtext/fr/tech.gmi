@@ -32,4 +32,4 @@
 * Protocoles de communication
 * IoT et intégration de systèmes
 
-=> /fr/ Retour à l'accueil
+=> /fr/index.gmi Retour à l'accueil

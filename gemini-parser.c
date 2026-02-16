@@ -156,6 +156,11 @@ const char* CSS =
 "    color: #171717; \n"
 "    word-wrap: break-word;\n"
 "}\n"
+".logo { \n"
+"    display: block; \n"
+"    max-width: 80px; \n"
+"    margin-bottom: 1.5rem; \n"
+"}\n"
 "</style>\n";
 
 void write_html_header(FILE *output, const char *title) {
@@ -167,6 +172,7 @@ void write_html_header(FILE *output, const char *title) {
     fprintf(output, "%s", CSS);
     fprintf(output, "</head>\n");
     fprintf(output, "<body>\n");
+    fprintf(output, "<img src=\"/Logo.png\" alt=\"guifl.com\" class=\"logo\">\n");
 }
 
 void parse_gemtext_to_html(const char *gemtext_dir, const char *html_dir, char *name) {

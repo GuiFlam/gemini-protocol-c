@@ -6,7 +6,10 @@ Je suis étudiant en génie électrique à l'École de technologie supérieure (
 
 ## Formation
 * Génie électrique - ÉTS Montréal
-* Stagiaire en gestion de projets - Division Énergie, entreprise
+
+## Expérience
+* Stagiaire en ingénierie électrique du bâtiment - EXP (été 2026)
+* Stagiaire en gestion de projets - Division Énergie, Laurin Laurin
 
 ## Centres d'intérêt techniques
 * Systèmes embarqués et microcontrôleurs
@@ -19,4 +22,4 @@ Je suis étudiant en génie électrique à l'École de technologie supérieure (
 ## Approche
 Je privilégie la compréhension approfondie des systèmes, l'utilisation d'outils open-source, et le contrôle technique sur l'infrastructure.
 
-=> /fr/ Retour à l'accueil
+=> /fr/index.gmi Retour à l'accueil

@@ -37,4 +37,4 @@ The Gemini server itself is also written in C, handling request parsing, TLS and
 
 => https://github.com/GuiFlam/gemini-protocol-c My Gemini server and gemtext to HTML converter
 
-=> / Back to home
+=> /index.gmi Back to home
