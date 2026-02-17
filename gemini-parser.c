@@ -169,6 +169,7 @@ void write_html_header(FILE *output, const char *title) {
     fprintf(output, "<head>\n");
     fprintf(output, "<meta charset=\"utf-8\">\n");
     fprintf(output, "<title>%s</title>\n", title);
+    fprintf(output, "<link rel=\"icon\" type=\"image/png\" href=\"/Logo.png\">\n");
     fprintf(output, "%s", CSS);
     fprintf(output, "</head>\n");
     fprintf(output, "<body>\n");
