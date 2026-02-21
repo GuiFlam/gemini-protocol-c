@@ -4,6 +4,14 @@ const path = require('path');
 
 const PORT = 8080;
 
+// Extract CSS from a generated HTML file so the files page matches the site style
+let SITE_CSS = '<style></style>';
+try {
+  const indexHtml = fs.readFileSync('./html/index.html', 'utf8');
+  const match = indexHtml.match(/<style>[\s\S]*?<\/style>/);
+  if (match) SITE_CSS = match[0];
+} catch (_) {}
+
 const server = http.createServer((req, res) => {
   let urlPath = req.url;
 
@@ -18,6 +26,36 @@ const server = http.createServer((req, res) => {
   if (urlPath === '/fr' || urlPath === '/fr/') {
     res.writeHead(301, { 'Location': '/fr/index.gmi' });
     res.end();
+    return;
+  }
+
+  // Files listing page
+  if (urlPath === '/files' || urlPath === '/files/') {
+    fs.readdir('./files', (_err, entries) => {
+      const files = (entries || []).filter(f => f !== '.gitkeep');
+      const items = files.length === 0
+        ? '<p>No files available.</p>'
+        : '<ul>' + files.map(f =>
+            `<li><a href="/files/${encodeURIComponent(f)}">${f}</a></li>`
+          ).join('\n') + '</ul>';
+      const html = `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Files - guifl.com</title>
+<link rel="icon" type="image/png" href="/Logo.png">
+${SITE_CSS}
+</head>
+<body>
+<img src="/Logo.png" alt="guifl.com" class="logo">
+<h1>Files</h1>
+${items}
+<a href="/index.gmi">Back to home</a>
+</body>
+</html>`;
+      res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+      res.end(html);
+    });
     return;
   }
 
