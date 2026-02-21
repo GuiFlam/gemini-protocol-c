@@ -21,6 +21,31 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Serve downloadable files from /files/ directory
+  if (urlPath.startsWith('/files/')) {
+    const filename = path.basename(urlPath);
+    if (!filename || filename === '') {
+      res.writeHead(404);
+      res.end('Not found');
+      return;
+    }
+    const filePath = path.join('./files', filename);
+    fs.readFile(filePath, (err, content) => {
+      if (err) {
+        res.writeHead(404, { 'Content-Type': 'text/html' });
+        res.end('<h1>404 Not Found</h1>');
+      } else {
+        res.writeHead(200, {
+          'Content-Type': 'application/octet-stream',
+          'Content-Disposition': `attachment; filename="${filename}"`,
+          'Content-Length': content.length
+        });
+        res.end(content);
+      }
+    });
+    return;
+  }
+
   // Serve static files (images)
   if (urlPath.match(/\.(png|jpg|jpeg|gif|svg|ico)$/)) {
     const staticPath = '.' + urlPath;
